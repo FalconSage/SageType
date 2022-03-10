@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+
+<title> SageType  </title>
+<link rel="stylesheet" href="style.css">
+<script src="index.js">  </script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+
+<head>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.addEventListener('load', function(){
+  window.cookieconsent.initialise({
+   revokeBtn: "<div class='cc-revoke'></div>",
+   type: "opt-in",
+   theme: "classic",
+   palette: {
+       popup: {
+           background: "#000",
+           text: "#fff"
+        },
+       button: {
+           background: "#fd0",
+           text: "#000"
+        }
+    },
+   content: {
+       message: "By continuing to our website you accept cookies. We use cookies for a better user experience",
+       link: "Cookie notice",
+       allow: "Close",
+       deny: "‏‏ ",
+       href: "https://2gdpr.com/cookies"
+    },
+    onInitialise: function(status) {
+      if(status == cookieconsent.status.allow) myScripts();
+    },
+    onStatusChange: function(status) {
+      if (this.hasConsented()) myScripts();
+    }
+  })
+});
+
+function myScripts() {
+
+   // Paste here your scripts that use cookies requiring consent. See examples below
+
+   // Google Analytics, you need to change 'UA-00000000-1' to your ID
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-00000000-1', 'auto');
+      ga('send', 'pageview');
+
+
+   // Facebook Pixel Code, you need to change '000000000000000' to your PixelID
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+          n.queue=[];t=b.createElement(e);t.async=!0;
+          t.src=v;s=b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t,s)}(window, document,'script',
+          'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '000000000000000');
+      fbq('track', 'PageView');
+
+}
+</script>
+
+  <style>
+    a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+
+   /* unvisited link */
+   a:link {
+        color: rgb(255, 255, 255);
+      }
+      /* visited link */
+      a:visited {
+        color: #ffffff;
+      }
+      /* mouse over link */
+      a:hover {
+        color: #cacac9;
+      }
+      /* selected link */
+      a:active {
+        color: #ffffff;
+      }
+
+      </style>
+
+<style>
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #722167; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #be1da9; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #be1da9; 
+  }
+  </style>
+
+   <nav> 
+    
+        <h3><a href="/">  S A G E  </a></h3>
+        <a href="#home"> Home </a>
+        <a href="#about"> About </a>
+        <a href="#contact"> Contact </a> 
+        <div class="dropdown">
+  <button class="dropbtn">More</button>
+  <div class="dropdown-content">
+    <a href="codetmp/index.html">IDE</a>
+    <a href="/docs.html">Docs</a>
+    <a href="#">Help</a>
+  </div>
+</div>
+       
+
+  </nav>
+  <div class='scroll-bar-wrapper'> 
+    <div class='scroll-bar'> </div>
+  </div>
+  
+  
+
+
+
+
+
+</head>
+<body>
+  <div class="beedy">  
+
+    <p id="home">   </p>
+    <p>   </p>
+    <p>   </p>
+    <p>   </p>
+    <p>   </p>
+    <p>   </p>
+    <p>   </p>
+    <p >   </p>
+    
+
+  <h1 class="text" ><center>The new way to code</center></h1>
+
+  <p>   </p>
+  <p>   </p>
+ <!--<center> <img src="ide.png"  
+ alt="ide"></center> -->
+
+ <center><iframe src="https://online-ide.clouze1x.repl.co/codetmp/index.html" width="973" height="472"> </iframe> </center>
+
+ <p>   </p>
+    <p>   </p>
+    <p>   </p>
+ <h1 class="text1" id="about"> What we do? </h1>
+ <p class="text2"> Sage is a world-class online IDE by FalconSage for everyone to use for free. <p>
+
+  <h1 class="text1" id="about"> Who we are </h1>
+  <p class="text2"> We are FalconSage. FalconSage makes, as of now, only one product, Sage or SageType. <p>
+
+      <footer>
+
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+
+<h3 class="text3"><center> © All rights reserved </center></h3>
+  </footer>
+    </div>
+    
+    <div>
+<form>      
+  <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+  <input name="email" type="text" class="feedback-input" placeholder="Email" />
+  <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+  <input type="submit" value="SUBMIT"/>
+</form>
+<style>
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body { background:rgb(30,30,40); }
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
+  </style>
+      </div>
+
+
+</body>
+
+
+
+</html>
+
+
