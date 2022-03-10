@@ -1,5 +1,5 @@
 # Sage
- S A G E  helps you develop JavaScript applications in the browser.
+ S A G E  helps you develop JavaScript applications in the browser. There are still many bugs and it is in active updates stage. 
 
 ## Key Features
 1. Lightweight.
