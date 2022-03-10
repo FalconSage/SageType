@@ -37,4 +37,4 @@ See files below :
 
 # Thanks
 
-Thanks for looking. Offical GitBook Docs is coming soon!
+Thanks for looking. The Docs are here! Go to More --> Docs. THEY ARE HALF DONE. This is a early view.
